@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "docker:login": "docker login https://ghcr.io/ -u civilizeddev",
+    "sbt:clean": "sbt clean",
+    "sbt:publish": "sbt publish",
+    "sbt:publishLocal": "sbt publishLocal",
+    "sbt:docker:publish": "sbt 'Docker / publish'",
+    "sbt:docker:publishLocal": "sbt 'Docker / publishLocal'"
+  }
+}
